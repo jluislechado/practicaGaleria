@@ -1,0 +1,302 @@
+[31-Jan-2016 12:37:53 UTC] PHP Warning:  require(./clases/Controlador.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/artista/index.php on line 2
+[31-Jan-2016 12:37:53 UTC] PHP Stack trace:
+[31-Jan-2016 12:37:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 12:37:53 UTC] PHP Fatal error:  require(): Failed opening required './clases/Controlador.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/artista/index.php on line 2
+[31-Jan-2016 12:37:53 UTC] PHP Stack trace:
+[31-Jan-2016 12:37:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 12:39:03 UTC] PHP Fatal error:  Cannot redeclare class AutoCarga in /home/ubuntu/workspace/clases/AutoCarga.php on line 2
+[31-Jan-2016 12:39:03 UTC] PHP Stack trace:
+[31-Jan-2016 12:39:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 12:39:03 UTC] PHP   2. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/artista/index.php:3
+[31-Jan-2016 12:39:03 UTC] PHP   3. AutoCarga::cargar($clase = *uninitialized*) /home/ubuntu/workspace/artista/index.php:3
+[31-Jan-2016 12:39:03 UTC] PHP   4. require() /home/ubuntu/workspace/clases/AutoCarga.php:7
+[31-Jan-2016 12:40:16 UTC] PHP Warning:  require(./AutoCarga.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/ControladorArtista.php on line 2
+[31-Jan-2016 12:40:16 UTC] PHP Stack trace:
+[31-Jan-2016 12:40:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 12:40:16 UTC] PHP   2. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/artista/index.php:3
+[31-Jan-2016 12:40:16 UTC] PHP   3. AutoCarga::cargar($clase = *uninitialized*) /home/ubuntu/workspace/artista/index.php:3
+[31-Jan-2016 12:40:16 UTC] PHP   4. require() /home/ubuntu/workspace/clases/AutoCarga.php:7
+[31-Jan-2016 12:40:16 UTC] PHP Fatal error:  require(): Failed opening required './AutoCarga.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/clases/ControladorArtista.php on line 2
+[31-Jan-2016 12:40:16 UTC] PHP Stack trace:
+[31-Jan-2016 12:40:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 12:40:16 UTC] PHP   2. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/artista/index.php:3
+[31-Jan-2016 12:40:16 UTC] PHP   3. AutoCarga::cargar($clase = *uninitialized*) /home/ubuntu/workspace/artista/index.php:3
+[31-Jan-2016 12:40:16 UTC] PHP   4. require() /home/ubuntu/workspace/clases/AutoCarga.php:7
+[31-Jan-2016 12:41:14 UTC] PHP Fatal error:  Cannot redeclare class AutoCarga in /home/ubuntu/workspace/clases/AutoCarga.php on line 2
+[31-Jan-2016 12:41:14 UTC] PHP Stack trace:
+[31-Jan-2016 12:41:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 12:41:14 UTC] PHP   2. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/artista/index.php:3
+[31-Jan-2016 12:41:14 UTC] PHP   3. AutoCarga::cargar($clase = *uninitialized*) /home/ubuntu/workspace/artista/index.php:3
+[31-Jan-2016 12:41:14 UTC] PHP   4. require() /home/ubuntu/workspace/clases/AutoCarga.php:7
+[31-Jan-2016 12:42:21 UTC] PHP Warning:  file_get_contents(plantillas/_ver.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/ControladorArtista.php on line 18
+[31-Jan-2016 12:42:21 UTC] PHP Stack trace:
+[31-Jan-2016 12:42:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 12:42:21 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 12:42:21 UTC] PHP   3. ControladorArtista->metodo0() /home/ubuntu/workspace/clases/ControladorArtista.php:13
+[31-Jan-2016 12:42:21 UTC] PHP   4. file_get_contents(*uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:18
+[31-Jan-2016 12:42:21 UTC] PHP Warning:  file_get_contents(plantillas/_plantilla.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/ControladorArtista.php on line 19
+[31-Jan-2016 12:42:21 UTC] PHP Stack trace:
+[31-Jan-2016 12:42:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 12:42:21 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 12:42:21 UTC] PHP   3. ControladorArtista->metodo0() /home/ubuntu/workspace/clases/ControladorArtista.php:13
+[31-Jan-2016 12:42:21 UTC] PHP   4. file_get_contents(*uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:19
+[31-Jan-2016 13:03:17 UTC] PHP Warning:  require(clases/AutoCarga.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/Controlador.php on line 2
+[31-Jan-2016 13:03:17 UTC] PHP Stack trace:
+[31-Jan-2016 13:03:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:03:17 UTC] PHP   2. require() /home/ubuntu/workspace/artista/index.php:2
+[31-Jan-2016 13:03:17 UTC] PHP Fatal error:  require(): Failed opening required 'clases/AutoCarga.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/clases/Controlador.php on line 2
+[31-Jan-2016 13:03:17 UTC] PHP Stack trace:
+[31-Jan-2016 13:03:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:03:17 UTC] PHP   2. require() /home/ubuntu/workspace/artista/index.php:2
+[31-Jan-2016 13:03:44 UTC] PHP Warning:  require(clases/AutoCarga.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/Controlador.php on line 2
+[31-Jan-2016 13:03:44 UTC] PHP Stack trace:
+[31-Jan-2016 13:03:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:03:44 UTC] PHP   2. require() /home/ubuntu/workspace/artista/index.php:2
+[31-Jan-2016 13:03:44 UTC] PHP Fatal error:  require(): Failed opening required 'clases/AutoCarga.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/clases/Controlador.php on line 2
+[31-Jan-2016 13:03:44 UTC] PHP Stack trace:
+[31-Jan-2016 13:03:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:03:44 UTC] PHP   2. require() /home/ubuntu/workspace/artista/index.php:2
+[31-Jan-2016 13:03:56 UTC] PHP Warning:  require(clases/AutoCarga.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/Controlador.php on line 2
+[31-Jan-2016 13:03:56 UTC] PHP Stack trace:
+[31-Jan-2016 13:03:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:03:56 UTC] PHP   2. require() /home/ubuntu/workspace/artista/index.php:2
+[31-Jan-2016 13:03:56 UTC] PHP Fatal error:  require(): Failed opening required 'clases/AutoCarga.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/clases/Controlador.php on line 2
+[31-Jan-2016 13:03:56 UTC] PHP Stack trace:
+[31-Jan-2016 13:03:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:03:56 UTC] PHP   2. require() /home/ubuntu/workspace/artista/index.php:2
+[31-Jan-2016 13:05:17 UTC] PHP Warning:  require_once(../clases/Google/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/ControladorArtista.php on line 59
+[31-Jan-2016 13:05:17 UTC] PHP Stack trace:
+[31-Jan-2016 13:05:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:05:17 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:05:17 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:05:17 UTC] PHP Fatal error:  require_once(): Failed opening required '../clases/Google/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/clases/ControladorArtista.php on line 59
+[31-Jan-2016 13:05:17 UTC] PHP Stack trace:
+[31-Jan-2016 13:05:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:05:17 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:05:17 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:09:51 UTC] PHP Warning:  require_once(../clases/class.phpmailer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/ControladorArtista.php on line 60
+[31-Jan-2016 13:09:51 UTC] PHP Stack trace:
+[31-Jan-2016 13:09:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:09:51 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:09:51 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:09:51 UTC] PHP Fatal error:  require_once(): Failed opening required '../clases/class.phpmailer.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/clases/ControladorArtista.php on line 60
+[31-Jan-2016 13:09:51 UTC] PHP Stack trace:
+[31-Jan-2016 13:09:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:09:51 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:09:51 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:11:25 UTC] PHP Warning:  require(clases/Google_Client.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/AutoCarga.php on line 11
+[31-Jan-2016 13:11:25 UTC] PHP Stack trace:
+[31-Jan-2016 13:11:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:11:25 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:11:25 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:11:25 UTC] PHP   4. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:61
+[31-Jan-2016 13:11:25 UTC] PHP   5. AutoCarga::cargar($clase = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:61
+[31-Jan-2016 13:11:25 UTC] PHP Fatal error:  require(): Failed opening required 'clases/Google_Client.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/clases/AutoCarga.php on line 11
+[31-Jan-2016 13:11:25 UTC] PHP Stack trace:
+[31-Jan-2016 13:11:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:11:25 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:11:25 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:11:25 UTC] PHP   4. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:61
+[31-Jan-2016 13:11:25 UTC] PHP   5. AutoCarga::cargar($clase = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:61
+[31-Jan-2016 13:15:31 UTC] PHP Warning:  require(clases/Google_Config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/AutoCarga.php on line 11
+[31-Jan-2016 13:15:31 UTC] PHP Stack trace:
+[31-Jan-2016 13:15:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:15:31 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:15:31 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:15:31 UTC] PHP   4. Google_Client->__construct($config = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:62
+[31-Jan-2016 13:15:31 UTC] PHP   5. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:80
+[31-Jan-2016 13:15:31 UTC] PHP   6. AutoCarga::cargar($clase = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:80
+[31-Jan-2016 13:15:31 UTC] PHP Fatal error:  require(): Failed opening required 'clases/Google_Config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/clases/AutoCarga.php on line 11
+[31-Jan-2016 13:15:31 UTC] PHP Stack trace:
+[31-Jan-2016 13:15:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:15:31 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:15:31 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:15:31 UTC] PHP   4. Google_Client->__construct($config = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:62
+[31-Jan-2016 13:15:31 UTC] PHP   5. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:80
+[31-Jan-2016 13:15:31 UTC] PHP   6. AutoCarga::cargar($clase = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:80
+[31-Jan-2016 13:18:01 UTC] PHP Warning:  require(clases/Google_Client.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/AutoCarga.php on line 11
+[31-Jan-2016 13:18:01 UTC] PHP Stack trace:
+[31-Jan-2016 13:18:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:18:01 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:18:01 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:18:01 UTC] PHP   4. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:61
+[31-Jan-2016 13:18:01 UTC] PHP   5. AutoCarga::cargar($clase = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:61
+[31-Jan-2016 13:18:01 UTC] PHP Fatal error:  require(): Failed opening required 'clases/Google_Client.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/clases/AutoCarga.php on line 11
+[31-Jan-2016 13:18:01 UTC] PHP Stack trace:
+[31-Jan-2016 13:18:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:18:01 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:18:01 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:18:01 UTC] PHP   4. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:61
+[31-Jan-2016 13:18:01 UTC] PHP   5. AutoCarga::cargar($clase = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:61
+[31-Jan-2016 13:20:25 UTC] PHP Warning:  require(Google_Client.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/AutoCarga.php on line 15
+[31-Jan-2016 13:20:25 UTC] PHP Stack trace:
+[31-Jan-2016 13:20:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:20:25 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:20:25 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:20:25 UTC] PHP   4. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:61
+[31-Jan-2016 13:20:25 UTC] PHP   5. AutoCarga::cargar($clase = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:61
+[31-Jan-2016 13:20:25 UTC] PHP Fatal error:  require(): Failed opening required 'Google_Client.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/clases/AutoCarga.php on line 15
+[31-Jan-2016 13:20:25 UTC] PHP Stack trace:
+[31-Jan-2016 13:20:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:20:25 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:20:25 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:20:25 UTC] PHP   4. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:61
+[31-Jan-2016 13:20:25 UTC] PHP   5. AutoCarga::cargar($clase = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:61
+[31-Jan-2016 13:28:12 UTC] PHP Warning:  require_once(../../clases/Google/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/oauth/solicitar.php on line 5
+[31-Jan-2016 13:28:12 UTC] PHP Stack trace:
+[31-Jan-2016 13:28:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/oauth/solicitar.php:0
+[31-Jan-2016 13:28:12 UTC] PHP Fatal error:  require_once(): Failed opening required '../../clases/Google/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/oauth/solicitar.php on line 5
+[31-Jan-2016 13:28:12 UTC] PHP Stack trace:
+[31-Jan-2016 13:28:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/oauth/solicitar.php:0
+[31-Jan-2016 13:43:19 UTC] PHP Warning:  require_once(../../clases/Google/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/oauth/guardar.php on line 5
+[31-Jan-2016 13:43:19 UTC] PHP Stack trace:
+[31-Jan-2016 13:43:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/oauth/guardar.php:0
+[31-Jan-2016 13:43:19 UTC] PHP Fatal error:  require_once(): Failed opening required '../../clases/Google/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/oauth/guardar.php on line 5
+[31-Jan-2016 13:43:19 UTC] PHP Stack trace:
+[31-Jan-2016 13:43:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/oauth/guardar.php:0
+[31-Jan-2016 13:44:55 UTC] PHP Warning:  file_get_contents(token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/ControladorArtista.php on line 67
+[31-Jan-2016 13:44:55 UTC] PHP Stack trace:
+[31-Jan-2016 13:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:44:55 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:44:55 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:44:55 UTC] PHP   4. file_get_contents(*uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:67
+[31-Jan-2016 13:44:55 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/ubuntu/workspace/clases/Google/Auth/OAuth2.php:186
+Stack trace:
+#0 /home/ubuntu/workspace/clases/Google/Client.php(218): Google_Auth_OAuth2->setAccessToken(false)
+#1 /home/ubuntu/workspace/clases/ControladorArtista.php(67): Google_Client->setAccessToken(false)
+#2 /home/ubuntu/workspace/clases/ControladorArtista.php(11): ControladorArtista->metodoregistro(Object(ManageArtista))
+#3 /home/ubuntu/workspace/artista/index.php(4): ControladorArtista->handle()
+#4 {main}
+  thrown in /home/ubuntu/workspace/clases/Google/Auth/OAuth2.php on line 186
+[31-Jan-2016 13:56:20 UTC] PHP Warning:  file_get_contents(plantillas/_mensaje.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/Plantilla.php on line 4
+[31-Jan-2016 13:56:21 UTC] PHP Stack trace:
+[31-Jan-2016 13:56:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:56:21 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:56:21 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:56:21 UTC] PHP   4. Plantilla::cargarPlantilla($ruta = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:85
+[31-Jan-2016 13:56:21 UTC] PHP   5. file_get_contents(*uninitialized*) /home/ubuntu/workspace/clases/Plantilla.php:4
+[31-Jan-2016 13:56:21 UTC] PHP Warning:  file_get_contents(plantillas/_plantilla.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/Plantilla.php on line 4
+[31-Jan-2016 13:56:21 UTC] PHP Stack trace:
+[31-Jan-2016 13:56:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:56:21 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:56:21 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:56:21 UTC] PHP   4. Plantilla::cargarPlantilla($ruta = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:90
+[31-Jan-2016 13:56:21 UTC] PHP   5. file_get_contents(*uninitialized*) /home/ubuntu/workspace/clases/Plantilla.php:4
+[31-Jan-2016 13:56:34 UTC] PHP Warning:  file_get_contents(plantillas/_plantilla.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/Plantilla.php on line 4
+[31-Jan-2016 13:56:34 UTC] PHP Stack trace:
+[31-Jan-2016 13:56:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 13:56:34 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 13:56:34 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:11
+[31-Jan-2016 13:56:34 UTC] PHP   4. Plantilla::cargarPlantilla($ruta = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:90
+[31-Jan-2016 13:56:34 UTC] PHP   5. file_get_contents(*uninitialized*) /home/ubuntu/workspace/clases/Plantilla.php:4
+[31-Jan-2016 16:53:26 UTC] PHP Fatal error:  Call to undefined function escribir() in /home/ubuntu/workspace/clases/ControladorArtista.php on line 87
+[31-Jan-2016 16:53:26 UTC] PHP Stack trace:
+[31-Jan-2016 16:53:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 16:53:26 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 16:53:26 UTC] PHP   3. ControladorArtista->metodoregistro($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:13
+[31-Jan-2016 18:39:19 UTC] PHP Fatal error:  Class 'Session' not found in /home/ubuntu/workspace/clases/ControladorArtista.php on line 123
+[31-Jan-2016 18:39:19 UTC] PHP Stack trace:
+[31-Jan-2016 18:39:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[31-Jan-2016 18:39:19 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[31-Jan-2016 18:39:19 UTC] PHP   3. ControladorArtista->metodologin($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:13
+[06-Feb-2016 14:17:04 UTC] PHP Warning:  file_get_contents(plantillas/_insertar.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/Plantilla.php on line 4
+[06-Feb-2016 14:17:04 UTC] PHP Stack trace:
+[06-Feb-2016 14:17:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[06-Feb-2016 14:17:04 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[06-Feb-2016 14:17:04 UTC] PHP   3. ControladorArtista->metodoviewInsertar($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:13
+[06-Feb-2016 14:17:04 UTC] PHP   4. Plantilla::cargarPlantilla($ruta = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:166
+[06-Feb-2016 14:17:04 UTC] PHP   5. file_get_contents(*uninitialized*) /home/ubuntu/workspace/clases/Plantilla.php:4
+[06-Feb-2016 14:17:04 UTC] PHP Warning:  file_get_contents(plantillas/_plantilla.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/Plantilla.php on line 4
+[06-Feb-2016 14:17:04 UTC] PHP Stack trace:
+[06-Feb-2016 14:17:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[06-Feb-2016 14:17:04 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[06-Feb-2016 14:17:04 UTC] PHP   3. ControladorArtista->metodoviewInsertar($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:13
+[06-Feb-2016 14:17:04 UTC] PHP   4. Plantilla::cargarPlantilla($ruta = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:167
+[06-Feb-2016 14:17:04 UTC] PHP   5. file_get_contents(*uninitialized*) /home/ubuntu/workspace/clases/Plantilla.php:4
+[06-Feb-2016 14:17:28 UTC] PHP Warning:  file_get_contents(plantillas/_insertar.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/Plantilla.php on line 4
+[06-Feb-2016 14:17:28 UTC] PHP Stack trace:
+[06-Feb-2016 14:17:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[06-Feb-2016 14:17:28 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[06-Feb-2016 14:17:28 UTC] PHP   3. ControladorArtista->metodoviewInsertar($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:13
+[06-Feb-2016 14:17:28 UTC] PHP   4. Plantilla::cargarPlantilla($ruta = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:166
+[06-Feb-2016 14:17:28 UTC] PHP   5. file_get_contents(*uninitialized*) /home/ubuntu/workspace/clases/Plantilla.php:4
+[06-Feb-2016 14:17:28 UTC] PHP Warning:  file_get_contents(plantillas/_plantilla.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/Plantilla.php on line 4
+[06-Feb-2016 14:17:28 UTC] PHP Stack trace:
+[06-Feb-2016 14:17:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[06-Feb-2016 14:17:28 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[06-Feb-2016 14:17:28 UTC] PHP   3. ControladorArtista->metodoviewInsertar($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:13
+[06-Feb-2016 14:17:28 UTC] PHP   4. Plantilla::cargarPlantilla($ruta = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:167
+[06-Feb-2016 14:17:28 UTC] PHP   5. file_get_contents(*uninitialized*) /home/ubuntu/workspace/clases/Plantilla.php:4
+[06-Feb-2016 14:17:34 UTC] PHP Warning:  file_get_contents(plantillas/_insertar.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/Plantilla.php on line 4
+[06-Feb-2016 14:17:34 UTC] PHP Stack trace:
+[06-Feb-2016 14:17:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[06-Feb-2016 14:17:34 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[06-Feb-2016 14:17:34 UTC] PHP   3. ControladorArtista->metodoviewInsertar($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:13
+[06-Feb-2016 14:17:34 UTC] PHP   4. Plantilla::cargarPlantilla($ruta = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:166
+[06-Feb-2016 14:17:34 UTC] PHP   5. file_get_contents(*uninitialized*) /home/ubuntu/workspace/clases/Plantilla.php:4
+[06-Feb-2016 14:17:34 UTC] PHP Warning:  file_get_contents(plantillas/_plantilla.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/Plantilla.php on line 4
+[06-Feb-2016 14:17:34 UTC] PHP Stack trace:
+[06-Feb-2016 14:17:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[06-Feb-2016 14:17:34 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[06-Feb-2016 14:17:34 UTC] PHP   3. ControladorArtista->metodoviewInsertar($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:13
+[06-Feb-2016 14:17:34 UTC] PHP   4. Plantilla::cargarPlantilla($ruta = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:167
+[06-Feb-2016 14:17:34 UTC] PHP   5. file_get_contents(*uninitialized*) /home/ubuntu/workspace/clases/Plantilla.php:4
+[06-Feb-2016 18:38:48 UTC] PHP Fatal error:  Call to a member function getAlias() on a non-object in /home/ubuntu/workspace/clases/ControladorArtista.php on line 177
+[06-Feb-2016 18:38:48 UTC] PHP Stack trace:
+[06-Feb-2016 18:38:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[06-Feb-2016 18:38:48 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[06-Feb-2016 18:38:48 UTC] PHP   3. ControladorArtista->metodoinsertarObra() /home/ubuntu/workspace/clases/ControladorArtista.php:13
+[06-Feb-2016 19:04:02 UTC] PHP Fatal error:  Cannot redeclare class ControladorArtista in /home/ubuntu/workspace/clases/ControladorObra.php on line 5
+[06-Feb-2016 19:04:02 UTC] PHP Stack trace:
+[06-Feb-2016 19:04:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/obra/index.php:0
+[06-Feb-2016 19:04:02 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/obra/index.php:3
+[06-Feb-2016 19:04:02 UTC] PHP   3. AutoCarga::cargar() /home/ubuntu/workspace/obra/index.php:3
+[06-Feb-2016 19:31:05 UTC] PHP Fatal error:  Call to a member function getDescripcion() on a non-object in /home/ubuntu/workspace/clases/ControladorObra.php on line 68
+[06-Feb-2016 19:31:05 UTC] PHP Stack trace:
+[06-Feb-2016 19:31:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/obra/index.php:0
+[06-Feb-2016 19:31:05 UTC] PHP   2. ControladorObra->handle() /home/ubuntu/workspace/obra/index.php:4
+[06-Feb-2016 19:31:05 UTC] PHP   3. ControladorObra->metodoinsertarObra() /home/ubuntu/workspace/clases/ControladorObra.php:13
+[07-Feb-2016 11:02:00 UTC] PHP Fatal error:  Undefined class constant 'Constant::NRPF' in /home/ubuntu/workspace/clases/ManageObra.php on line 23
+[07-Feb-2016 11:02:00 UTC] PHP Stack trace:
+[07-Feb-2016 11:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/obra/index.php:0
+[07-Feb-2016 11:02:00 UTC] PHP   2. ControladorObra->handle() /home/ubuntu/workspace/obra/index.php:4
+[07-Feb-2016 11:02:00 UTC] PHP   3. ControladorObra->metodoeliminarObra() /home/ubuntu/workspace/clases/ControladorObra.php:13
+[07-Feb-2016 11:02:00 UTC] PHP   4. ManageObra->getListWhere() /home/ubuntu/workspace/clases/ControladorObra.php:76
+[07-Feb-2016 11:02:49 UTC] PHP Fatal error:  Undefined class constant 'Constant::NRPF' in /home/ubuntu/workspace/clases/ManageObra.php on line 23
+[07-Feb-2016 11:02:49 UTC] PHP Stack trace:
+[07-Feb-2016 11:02:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/obra/index.php:0
+[07-Feb-2016 11:02:49 UTC] PHP   2. ControladorObra->handle() /home/ubuntu/workspace/obra/index.php:4
+[07-Feb-2016 11:02:49 UTC] PHP   3. ControladorObra->metodoeliminarObra() /home/ubuntu/workspace/clases/ControladorObra.php:13
+[07-Feb-2016 11:02:49 UTC] PHP   4. ManageObra->getListWhere() /home/ubuntu/workspace/clases/ControladorObra.php:76
+[07-Feb-2016 11:03:00 UTC] PHP Warning:  file_get_contents(../templates/_obras.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/Plantilla.php on line 4
+[07-Feb-2016 11:03:00 UTC] PHP Stack trace:
+[07-Feb-2016 11:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/obra/index.php:0
+[07-Feb-2016 11:03:00 UTC] PHP   2. ControladorObra->handle() /home/ubuntu/workspace/obra/index.php:4
+[07-Feb-2016 11:03:00 UTC] PHP   3. ControladorObra->metodoeliminarObra() /home/ubuntu/workspace/clases/ControladorObra.php:13
+[07-Feb-2016 11:03:00 UTC] PHP   4. Plantilla::cargarPlantilla() /home/ubuntu/workspace/clases/ControladorObra.php:77
+[07-Feb-2016 11:03:00 UTC] PHP   5. file_get_contents() /home/ubuntu/workspace/clases/Plantilla.php:4
+[07-Feb-2016 11:03:00 UTC] PHP Warning:  file_get_contents(../templates/_plantilla.1.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/Plantilla.php on line 4
+[07-Feb-2016 11:03:00 UTC] PHP Stack trace:
+[07-Feb-2016 11:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/obra/index.php:0
+[07-Feb-2016 11:03:00 UTC] PHP   2. ControladorObra->handle() /home/ubuntu/workspace/obra/index.php:4
+[07-Feb-2016 11:03:00 UTC] PHP   3. ControladorObra->metodoeliminarObra() /home/ubuntu/workspace/clases/ControladorObra.php:13
+[07-Feb-2016 11:03:00 UTC] PHP   4. Plantilla::cargarPlantilla() /home/ubuntu/workspace/clases/ControladorObra.php:85
+[07-Feb-2016 11:03:00 UTC] PHP   5. file_get_contents() /home/ubuntu/workspace/clases/Plantilla.php:4
+[07-Feb-2016 11:08:15 UTC] PHP Parse error:  syntax error, unexpected ''hola'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/clases/ControladorObra.php on line 79
+[07-Feb-2016 11:08:15 UTC] PHP Stack trace:
+[07-Feb-2016 11:08:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/obra/index.php:0
+[07-Feb-2016 11:15:11 UTC] PHP Fatal error:  Call to undefined method Artista::getAutor() in /home/ubuntu/workspace/clases/ControladorObra.php on line 73
+[07-Feb-2016 11:15:11 UTC] PHP Stack trace:
+[07-Feb-2016 11:15:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/obra/index.php:0
+[07-Feb-2016 11:15:11 UTC] PHP   2. ControladorObra->handle() /home/ubuntu/workspace/obra/index.php:4
+[07-Feb-2016 11:15:11 UTC] PHP   3. ControladorObra->metodoeliminarObra() /home/ubuntu/workspace/clases/ControladorObra.php:13
+[07-Feb-2016 18:54:09 UTC] PHP Warning:  Missing argument 1 for ControladorArtista::metodousuario(), called in /home/ubuntu/workspace/clases/ControladorArtista.php on line 15 and defined in /home/ubuntu/workspace/clases/ControladorArtista.php on line 146
+[07-Feb-2016 18:54:09 UTC] PHP Stack trace:
+[07-Feb-2016 18:54:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[07-Feb-2016 18:54:09 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[07-Feb-2016 18:54:09 UTC] PHP   3. ControladorArtista->metodousuario($gestor = *uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:15
+[07-Feb-2016 19:59:01 UTC] PHP Fatal error:  Call to a member function set() on a non-object in /home/ubuntu/workspace/clases/ControladorArtista.php on line 186
+[07-Feb-2016 19:59:01 UTC] PHP Stack trace:
+[07-Feb-2016 19:59:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/artista/index.php:0
+[07-Feb-2016 19:59:01 UTC] PHP   2. ControladorArtista->handle() /home/ubuntu/workspace/artista/index.php:4
+[07-Feb-2016 19:59:01 UTC] PHP   3. ControladorArtista->metodoelegir(*uninitialized*) /home/ubuntu/workspace/clases/ControladorArtista.php:13
